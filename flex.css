@@ -1,0 +1,74 @@
+.sed{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px 40px;
+
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 40px;
+
+}
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px 40px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    height: 400px;
+    width: 800px;
+
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+.sedbut{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    
+
+}
+.suvbut{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+
+}
+.luxbut{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+button{
+    border-radius: 1em;
+    width: 100px;
+    height: 30px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    
+}
+.sedbut:hover {
+    background-color: white;
+    color: black;
+}
+.suvbut:hover {
+    background-color: white;
+    color: black;
+}
+.luxbut:hover {
+    background-color: white;
+    color: black;
+}
